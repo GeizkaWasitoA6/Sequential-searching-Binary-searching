@@ -1,0 +1,8 @@
+1. Binary search atau pencarian bagi dua adalah salah satu metode pencarian data salah satu nya Linear Search yang bisa kalian lihat sendiri pada link disamping
+2. Binary search mempunyai kelebihan dan kekurangan bila dibandingkan dengan Linear search salah satu nya binary search pencarian nya lebih cepat tapi agak sedikit susah untuk di mengerti bila dibandingkan dengan Linear Search yang simpel
+3. Pada program, binary searching adalah dengan membagi dua elemen larik pada elemen tengah.
+Elemen tengah adalah elemen dengan indeks tengah = ( awal + akkhir ) / 2 .
+Periksa apakah data[tengah] = cari .Jika data[tengah] = cari maka pencarian selesai ,sebab cari sudah ditemukan dan syarat penrulangan dari WHILE nya sudah tidak terpenuhi .
+Jika tidak ditemukan ,maka harus ditentukan apakah pencarian akan dilakukan di larik bagian kiri atau di bagian kanan . 
+Jika data[tengah] < cari . maka pencarian akan dilakukan dibagian kiri ,sebalik nya jika data[tengah] > cari , maka pencarian akan dilakukan dari sebelah kanan .
+Ulangi langkah 1 hingga cari ditemukan atau i > n atau larik sudah nol . 
