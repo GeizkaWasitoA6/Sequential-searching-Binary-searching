@@ -1,0 +1,5 @@
+1. Pencarian berurutan sering disebut pencarian linear merupakan metode pencarian yang paling sederhana.
+2. Prinsip pencarian, Data yang ada dibandingkan satu per satu secara
+berurutan dengan yang dicari sampai data tersebut
+ditemukan atau tidak ditemukan.
+3. untuk N elemen data harus dilakukan pencarian sebanyak N kali pula.
